@@ -1,0 +1,27 @@
+Podstawowe polecenia do GIT 
+-----------------------------------------------------------------
+Konfiguracja git'a
+
+git config --global user.name "nick"
+git config --global user.email user@mail.com
+
+Zaciągnięcie repo (PO RAZ PIERWSZY)
+git clone <URL>
+
+Update lokalnego repo
+git pull --prune
+
+Oznaczenie pliku do repo
+git add <nazwa_pliku.rozszerzenie>
+
+Sprawdzenie statusu repo
+git status 
+
+Zatwierdzenie zmian w repo
+git commit -m "komentarz do commita" <nazwa_pliku.rozszerzenie>
+
+Wysłanie plików do repo (z oznaczeniem brancha w git)
+git push -u origin master
+
+---------------------- USUNIĘCIE katalogu .idea/ z repozytorium lokalnego
+git rm net1/.idea/ -r 
