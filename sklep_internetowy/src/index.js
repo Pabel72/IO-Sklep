@@ -2,12 +2,15 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
 import { HelmetProvider } from 'react-helmet-async';
+import ProductsContextProvider from './contexts/ProductsContext';
 import reportWebVitals from './reportWebVitals';
 import Routes from "./routes";
 
 ReactDOM.render(
     <HelmetProvider>
-      <Routes />
+          <ProductsContextProvider>
+                <Routes />
+          </ProductsContextProvider>
       </HelmetProvider>,
   document.getElementById('root')
 );
