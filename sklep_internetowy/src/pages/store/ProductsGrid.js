@@ -12,7 +12,7 @@ const ProductsGrid = () => {
         <div className="row">
         <div className="col-sm-8">
         <div className="py-3">
-        {products.length} Products
+        {products.length} Produkty
     </div>
     </div>
     <div className="col-sm-4">
