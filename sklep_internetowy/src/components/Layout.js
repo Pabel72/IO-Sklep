@@ -1,5 +1,6 @@
 import React from 'react';
 import Header from './shared/header';
+import Footer from './shared/footer';
 
 import { Helmet } from 'react-helmet-async';
 
@@ -16,6 +17,7 @@ const Layout = ({title, description, children}) => {
             <main className="container">
                 {children}
             </main>
+            <Footer/>
         </>
     );
 }
