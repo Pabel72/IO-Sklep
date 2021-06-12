@@ -2,14 +2,15 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
+import { HelmetProvider } from 'react-helmet-async';
 import reportWebVitals from './reportWebVitals';
 import Routes from "./routes";
 
 ReactDOM.render(
-  <React.StrictMode>
+    <HelmetProvider>
     <App />
       <Routes />
-  </React.StrictMode>,
+      </HelmetProvider>,
   document.getElementById('root')
 );
 
