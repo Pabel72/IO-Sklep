@@ -12,6 +12,8 @@ const Header = () => {
             <Link to='/'>Sklep</Link>
             <Link to='/about'>O nas</Link>
             <Link to='/cart'> <CartIcon/> Koszyk ({itemCount})</Link>
+            <Link to='/login'>Logowanie</Link>
+            <Link to='/signup'>Rejestracja</Link>
         </header>
     );
 }
