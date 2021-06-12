@@ -53,4 +53,24 @@ export const dummyProducts = [
         price: 7290.00,
         photo: "/img/9.jpg"
     },
+    {
+        id: 10,
+        name: "Silver Monkey SMG-400 (Czarny)",
+        price: 550.00,
+        photo: "/img/10.png"
+    },
+    {
+        id: 11,
+        name: "MSI Optix G242 czarny",
+        price: 1100.00,
+        photo: "/img/11.png"
+    },
+    {
+        id: 12,
+        name: "Xiaomi Mi Smart LED Bulb Essential RGB",
+        price: 69.00,
+        photo: "/img/12.png"
+    },
+
+
 ];
