@@ -5,13 +5,17 @@ import { HelmetProvider } from 'react-helmet-async';
 import ProductsContextProvider from './contexts/ProductsContext';
 import reportWebVitals from './reportWebVitals';
 import Routes from "./routes";
+import CartContextProvider from './contexts/CartContext';
+
 
 ReactDOM.render(
     <HelmetProvider>
-          <ProductsContextProvider>
+        <ProductsContextProvider>
+            <CartContextProvider>
                 <Routes />
-          </ProductsContextProvider>
-      </HelmetProvider>,
+            </CartContextProvider>
+        </ProductsContextProvider>
+    </HelmetProvider>,
   document.getElementById('root')
 );
 

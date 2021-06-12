@@ -17,7 +17,7 @@ const ProductsGrid = () => {
     </div>
     <div className="col-sm-4">
         <div className="form-group">
-        <input type="text" name="" placeholder="Search product" className="form-control" id=""/>
+        <input type="text" name="" placeholder="Wyszukaj produkt..." className="form-control" id=""/>
         </div>
         </div>
         </div>

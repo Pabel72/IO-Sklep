@@ -1,4 +1,5 @@
 import React from "react";
+
 import {
     BrowserRouter as Router,
     Switch,
@@ -8,7 +9,7 @@ import {
 import About from '../pages/About';
 import NotFound from '../pages/NotFound';
 import Store from '../pages/store';
-
+import Cart from "../pages/cart";
 
 const Routes = () => {
     return (
@@ -18,6 +19,7 @@ const Routes = () => {
 
     <Route path="/about" component={About} />
                 <Route exact path="/" component={Store}/>
+                <Route path="/cart" component={Cart} />
     <Route path="*" component={NotFound} />
             </Switch>
 
