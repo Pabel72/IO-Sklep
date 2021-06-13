@@ -1,12 +1,15 @@
 import React, { Component } from "react";
-import 'bootswatch/dist/lux/bootstrap.css'
+import 'bootswatch/dist/lux/bootstrap.css';
+//import { db } from "../firebase"
 
 export default class Login extends Component {
     render() {
 
         return (
-
             <form>
+                <p className="Strona główna text-center">
+                    <a href="../"><h5>Wróc na stronę główną</h5></a>
+                </p>
                 <h3>Zaloguj się</h3>
 
                 <div className="form-group">

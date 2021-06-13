@@ -29,7 +29,7 @@ const Cart = () => {
 
                         { checkout &&
                         <div className="p-3 text-center text-success">
-                            <p>Powodzenie płatności</p>
+                            <p>Płatność została zrealizowana</p>
                             <Link to="/" className="btn btn-outline-success btn-sm">KUP WIĘCEJ</Link>
                         </div>
                         }

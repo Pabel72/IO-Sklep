@@ -4,6 +4,9 @@ export default class SignUp extends Component {
     render() {
         return (
             <form>
+                <p className="Strona główna text-center">
+                    <a href="../"><h5>Wróc na stronę główną</h5></a>
+                </p>
                 <h3>Zarejestruj się</h3>
 
                 <div className="form-group">
